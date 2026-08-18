@@ -1,0 +1,66 @@
+.fonts {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  background:
+  radial-gradient(
+    circle at 35% 90%,
+    #ffa51c 0%,
+    #ff365c 18%,
+    #f0007e 35%,
+    #d9009b 45%,
+    transparent 65%
+  ),
+  radial-gradient(
+    circle at 78% 35%,
+    #7838a0 0%,
+    #5b1682 35%,
+    #28003f 75%
+  ),
+  #28003f;
+}
+
+.intro {
+  text-align: center;
+}
+
+.profile-img {
+  flex: 1;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  width: 450px;
+  height: 300px;
+  border-radius: 30px !important;
+  overflow: hidden !important;
+  background: linear-gradient(180deg, #c084fc, #6d28d9);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.plan-button {
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 120px;
+}
